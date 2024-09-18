@@ -1,0 +1,114 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Arial;
+}
+.header {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+    .header a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 16.2px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+.header-right {
+    float: right;
+}
+
+
+#header {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo {
+    max-height: 40px;
+    max-width: 200px;
+    padding:0px 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    nav ul li {
+    }
+
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+.hero {
+    text-align: center;
+    background-image: url('https://lh4.googleusercontent.com/W5BulHgT5Cce89rbFlH12M_oolIl-XHCBOaNhZrWI9__FEwLsj-tMQZgzyJnidvXgdb7ke8gYB8X-lQYTcNa2Hs=w16383');
+    background-position: center center;
+    background-size: cover;
+    color: rgba(255,192,0,255);
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+    height:150px;
+}
+
+    .hero h1 {
+        margin: 0;
+        font-size: 48px;
+        line-height: 1.2;
+        margin-top:50px;
+    }
+
+#header.scrolled {
+    background-color: rgba(255,192,0,255);
+}
+
+.overview {
+    padding: 40px;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.achievements img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
