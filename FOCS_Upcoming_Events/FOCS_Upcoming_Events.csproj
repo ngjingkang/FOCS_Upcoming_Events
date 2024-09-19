@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="banner.JPG" />
     <Content Include="LOGO.png" />
     <Content Include="search.png" />
     <Content Include="styles.css" />

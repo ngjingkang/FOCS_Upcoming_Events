@@ -16,7 +16,7 @@
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Programme Accreditation</a></li>
                         <li>
-                            <a href="#">Programmess</a>
+                            <a href="#">Programmes</a>
                             <ul>
                                 <li><a href="#">Programme 1</a></li>
                                 <li><a href="#">Programme 2</a></li>
